@@ -23,10 +23,12 @@
     "author": "Minh Nguyen <minhnguyen.dev20@gmail.com>",
     "license": "MIT",
     "peerDependencies": {
-        "react": ">=17.0.0",
-        "ol": ">=7.0.0"
+        "ol": ">=7.0.0",
+        "react": ">=17.0.0"
     },
     "devDependencies": {
+        "@types/react": "^19.1.0",
+        "@types/react-dom": "^19.1.1",
         "tsup": "^7.2.0",
         "typescript": "^5.3.3"
     },
