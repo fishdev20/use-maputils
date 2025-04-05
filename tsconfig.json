@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "jsx": "react-jsx",
+      "declaration": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "outDir": "dist",
+      "resolveJsonModule": true,
+      "baseUrl": ".",
+      "paths": {
+        "@hooks/*": ["src/hooks/*"]
+      }
+    },
+    "include": ["src"]
+  }

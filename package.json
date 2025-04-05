@@ -1,0 +1,40 @@
+{
+    "name": "@minhng/use-maputils",
+    "version": "1.0.0",
+    "description": "A collection of React hooks for OpenLayers map utilities.",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/index.ts --format esm,cjs --dts",
+        "dev": "tsup src/index.ts --watch",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "react",
+        "hook",
+        "map",
+        "openlayers",
+        "mapping"
+    ],
+    "author": "Minh Nguyen <minhnguyen.dev20@gmail.com>",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": ">=17.0.0",
+        "ol": ">=7.0.0"
+    },
+    "devDependencies": {
+        "tsup": "^7.2.0",
+        "typescript": "^5.3.3"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/minhng20/use-maputils.git"
+    }
+}
