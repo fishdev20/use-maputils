@@ -1,6 +1,6 @@
 {
     "name": "use-maputils",
-    "version": "1.0.0-beta",
+    "version": "1.0.1-beta",
     "description": "A collection of React hooks for OpenLayers map utilities.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
@@ -37,6 +37,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/minhng20/use-maputils.git"
+        "url": "git+https://github.com/fishdev20/use-maputils.git"
     }
 }

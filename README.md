@@ -11,7 +11,7 @@ A collection of reusable React hooks for working with OpenLayers maps.
 
 ## 📦 Install
 ```bash
-npm install @minhng/use-maputils ol
+npm install use-maputils ol
 ```
 
 ## 🔧 Usage
