@@ -1,5 +1,5 @@
 {
-    "name": "@minhng/use-maputils",
+    "name": "use-maputils",
     "version": "1.0.0",
     "description": "A collection of React hooks for OpenLayers map utilities.",
     "main": "dist/index.js",
@@ -30,7 +30,7 @@
         "@types/react": "^19.1.0",
         "@types/react-dom": "^19.1.1",
         "tsup": "^7.2.0",
-        "typescript": "^5.3.3"
+        "typescript": "^5.8.3"
     },
     "publishConfig": {
         "access": "public"
