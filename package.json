@@ -1,6 +1,6 @@
 {
     "name": "use-maputils",
-    "version": "1.0.0",
+    "version": "1.0.0-beta",
     "description": "A collection of React hooks for OpenLayers map utilities.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
